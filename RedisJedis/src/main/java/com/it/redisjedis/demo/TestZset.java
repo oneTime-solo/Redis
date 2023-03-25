@@ -5,6 +5,7 @@ import redis.clients.jedis.Jedis;
 /** zset
  */
 public class TestZset {
+
     public static void main(String[] args) {
         Jedis jedis = new Jedis("192.168.60.100", 6379);
         jedis.flushDB();
